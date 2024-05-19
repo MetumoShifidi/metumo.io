@@ -48,6 +48,7 @@ function myMap() {
 var formdata = new FormData();
 formdata.append("type", "Light Square");
 formdata.append("tags", "Cashloan");
+formdata.append("tags", "Education");
 
 var ajax = new XMLHttpRequest();
 ajax.addEventListener("load", completeHandler, false);
